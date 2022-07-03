@@ -6,7 +6,7 @@ const onClickAdd = () => {
   createIncompleteList(inputText);
 };
 
-//未完了リストから指定の要素を削除
+//未完了リストから指定の要素を削除する関数
 const deleteFromIncompleteList = (target) => {
   document.getElementById("incomplete-list").removeChild(target);
 };
